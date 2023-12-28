@@ -1,0 +1,152 @@
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #f9fafb;
+  color: #f9fafb;
+}
+
+.header {
+  display: flex;
+  background-color: #1f2937;
+  padding: 5px 20px;
+}
+.header-logo {
+  width: 120px;
+}
+
+.header-links {
+  flex: 1;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 20px;
+  color: #f9faf8;
+  font-size: 16px;
+}
+.header-link {
+  text-decoration: none;
+  color: white;
+}
+.section1 {
+  color: white;
+  background-color: #1f2937;
+  display: flex;
+}
+.introduction-section1 {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin: 80px 120px;
+}
+.title-section1 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+.description-section1 {
+  flex: 1;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+.button-section1 {
+  background-color: #3882f6;
+  width: 100px;
+  border-radius: 8%;
+  color: white;
+  padding: 5px;
+  border: none;
+  align-self: flex-end;
+}
+.image-section1 {
+  width: 500px;
+  margin: 80px 120px;
+}
+.section2 {
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.title-section2 {
+  padding: 30px;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  display: flex;
+  justify-content: center;
+}
+.cards-section2 {
+  display: flex;
+  justify-content: space-between;
+}
+.card-section2 {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.card-description-section2 {
+  width: 200px;
+  text-align: center;
+  color: #1f2937;
+}
+
+.image-section2 {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+.section3 {
+  display: flex;
+  flex-direction: column;
+  padding: 110px 300px;
+  gap: 20px;
+  background-color: #e5e7eb;
+}
+
+.description-section3 {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+}
+.name-section3 {
+  font-size: x-large;
+  text-align: end;
+  color: #1f2937;
+}
+.section4 {
+  display: flex;
+  margin: 80px 200px;
+  padding: 40px 80px;
+  background-color: rgb(0, 140, 255);
+  color: white;
+  justify-content: space-between;
+  gap: 30px;
+  border-radius: 10px;
+}
+.container-section4 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.title-section4 {
+}
+.description-section4 {
+}
+.button-section4 {
+  color: white;
+  background-color: rgb(0, 140, 255);
+  border: white solid 1px;
+  width: 100px;
+  margin: 20px;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: #1f2937;
+  color: white;
+  padding: 20px;
+  font-size: 12pxpx;
+}
